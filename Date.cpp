@@ -3,7 +3,7 @@
 /* Конструкторы */
 
 Date::Date(int day, int month, int year) {
-    if (isValidDate(day, month, 0))
+    if (isValidDate(day, month, year))
         setDate(day, month, year);
     else
         throw std::invalid_argument("Invalid values of date");

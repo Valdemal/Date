@@ -1,6 +1,4 @@
-#ifndef OOP_2_DATE_H
-#define OOP_2_DATE_H
-
+#pragma once
 #include <iostream>
 #include <ctime>
 
@@ -90,5 +88,3 @@ private:
     static short compareDates(const Date & date1, const Date & date2);
 
 };
-
-#endif //OOP_2_DATE_H
